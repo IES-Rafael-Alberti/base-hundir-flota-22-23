@@ -19,14 +19,18 @@ def imprimir_tablero():
 
 # Crea tablero 10x10
 # versión con listas por comprensión
-#tablero = [ [ "V" for _ in range(10) ] for _ in range(10) ]
-# versión loser
-tablero = []
-for _ in range(10):
-    fila = []
+def tablero(filas = 10, columnas = 10):
+    return [ [ "V" for _ in range(columnas) ] for _ in range(filas) ]
+
+
+if __name__ == "__main__":
+    # versión loser
+    tablero = []
     for _ in range(10):
-        fila.append("V")
-    tablero.append(fila)
+        fila = []
+        for _ in range(10):
+            fila.append("V")
+        tablero.append(fila)
 
 
-imprimir_tablero()
+    imprimir_tablero()
