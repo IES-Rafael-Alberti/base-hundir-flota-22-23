@@ -1,6 +1,6 @@
 import random
 
-def imprimir_tablero():
+def imprimir_tablero(tablero):
     columnas = " ABCDEFGHIJ"
     print(" ", end="")
     for letra in columnas:
@@ -33,4 +33,4 @@ if __name__ == "__main__":
         tablero.append(fila)
 
 
-    imprimir_tablero()
+    imprimir_tablero(tablero)
