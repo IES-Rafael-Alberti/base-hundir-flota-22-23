@@ -1,5 +1,5 @@
 import aleatorio
-from matrices import tablero as genera_tablero
+from matrices import genera_tablero
 
 
 def test_comprueba_barcos():
