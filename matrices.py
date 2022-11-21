@@ -20,7 +20,7 @@ def imprimir_tablero(tablero):
 # Crea tablero 10x10
 # versión con listas por comprensión
 def tablero(filas = 10, columnas = 10):
-    return [ [ "V" for _ in range(columnas) ] for _ in range(filas) ]
+    return [ [ " " for _ in range(columnas) ] for _ in range(filas) ]
 
 
 if __name__ == "__main__":
